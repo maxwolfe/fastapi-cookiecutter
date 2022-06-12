@@ -1,23 +1,25 @@
 [tool.poetry]
-name = "{{ cookiecutter.project_name }}"
+name = "test_project"
 version = "0.1.0"
 description = ""
-authors = ["{{ cookiecutter.author }} <{{ cookiecutter.email }}>"]
+authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^{{ cookiecutter.python_version }}"
+python = "^3.10"
 fastapi = "~0.78"
 fastapi-health = "~0.4"
-python-dotenv = "~0.20"
 uvicorn = "^0.17.6"
+fastapi-versioning = "^0.10.0"
+requests = "^2.28.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "*"
+pytest = ">=6.2.5"
 black = "*"
 mypy = "*"
 isort = "*"
 flake8 = "*"
 pre-commit = "*"
+pytest-cov = "^3.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
