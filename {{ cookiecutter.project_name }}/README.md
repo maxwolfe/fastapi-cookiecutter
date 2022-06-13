@@ -29,3 +29,9 @@ git commit -m "Initial Commit"
 
 ### Build Package
 ```poetry build```
+
+### Unit Tests
+```pytest```
+
+#### Check Test Coverage
+```pytest --cov```
