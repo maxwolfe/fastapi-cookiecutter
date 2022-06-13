@@ -3,6 +3,7 @@ from functools import reduce
 
 from fastapi.testclient import TestClient
 from pytest import fixture
+
 from {{cookiecutter.project_name}} import server
 from {{cookiecutter.project_name}}.dependencies import get_settings
 from {{cookiecutter.project_name}}.settings import Settings

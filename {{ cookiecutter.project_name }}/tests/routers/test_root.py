@@ -1,5 +1,6 @@
 """Unit tests for root router."""
 from fastapi.testclient import TestClient
+
 from {{cookiecutter.project_name}}.routers import root
 
 

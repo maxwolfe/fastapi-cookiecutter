@@ -1,5 +1,6 @@
 """Unit tests for health endpoints."""
 from fastapi.testclient import TestClient
+
 from {{cookiecutter.project_name}}.routers.health import (
     application_health,
     internet_connectivity,
